@@ -1,0 +1,29 @@
+{
+  "name": "tpi-dados01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node ./src/index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/csv-parse": "^1.1.12",
+    "@types/nodemailer": "^7.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "@types/handlebars": "^4.0.40",
+    "csv-parse": "^6.1.0",
+    "dotenv": "^17.2.2",
+    "fs": "^0.0.1-security",
+    "handlebars": "^4.7.8",
+    "nodemailer": "^7.0.6",
+    "smtp-client": "^0.4.0"
+  }
+}
